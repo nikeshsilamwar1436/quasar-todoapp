@@ -26,7 +26,7 @@
         </q-card-section>
         <q-card-section>
         <div class="q-gutter-md q-pa-md" style="max-width: 300px">
-        <q-input class="disable"  v-model="edit.taskid" type="taskid" label="id" />
+        <!-- <q-input class="disable"  v-model="edit.taskid" type="taskid" label="id" /> -->
         <q-input  v-model="edit.taskname" type="taskname" label="Taskname" />
         <q-input  v-model="edit.personname" type="personname" label="PersonName" />
         <q-input filled v-model="edit.startdate" type="startdate" label="Start Date" mask="date" :rules="['date']">
